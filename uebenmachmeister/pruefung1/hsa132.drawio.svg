@@ -1,0 +1,23 @@
+<svg>
+<p style="font-size: 12pt;
+            font-family:'Courier New'; background-color:rgb(200, 223, 255);" class="p-2">
+<u>suchen (Suchwort: String): Titel</u><br>
+falls Suchwort &lt; Wortlaut <br>
+&emsp;falls links nicht null <br>
+&emsp;&emsp;falls Suchwort = links.Wortlaut <br>
+&emsp;&emsp;&emsp;ergebnis = links <br>
+&emsp;&emsp;sonst <br>
+&emsp;&emsp;&emsp;ergebnis = links.suchen (Suchwort) <br>
+&emsp;sonst <br>
+&emsp;&emsp;&emsp;ergebnis = null <br>
+sonst <br>
+&emsp;falls rechts nicht null <br>
+&emsp;&emsp;falls Suchwort = rechts.Wortlaut <br>
+&emsp;&emsp;&emsp;ergebnis = rechts <br>
+&emsp;&emsp;sonst <br>
+&emsp;&emsp;&emsp;ergebnis = rechts.suchen(Suchwort) <br>
+&emsp;sonst <br>
+&emsp;&emsp;&emsp;ergebnis = null <br>
+Rueckgabe: ergebnis
+</p>
+</svg>
