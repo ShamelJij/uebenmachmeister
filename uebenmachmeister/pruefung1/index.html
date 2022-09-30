@@ -92,14 +92,17 @@
                         Eigenmitteln
                         beschafft.</p>
                     <p>Zeichnen Sie hierzu ein Aktivitätsdiagramm.</p>
-                    <div class="text-center p-2">
+                    <div class="p-2">
                         <img src="hs1.drawio.svg">
                     </div>
                     <div class="text-center p-2">
-                        <a href="#antwort1" style="cursor: pointer;" class="text-primary" onclick="antwort1()">Lösung</a>
+                        <a href="#antwort1" id="btn1" style="cursor: pointer;" class="text-primary" onclick="antwort1()">Lösung</a>
                     </div>
                     <div class="text-center p-2">
                         <img src="hsa11.drawio.svg" class="d-none" id="antwort1">
+                        <div class="text-center p-2">
+                            <a href="#hs11" id="hide1" style="cursor: pointer;" class="d-none" onclick="hide1()">Ausblenden</a>
+                        </div>
                     </div>
                 </div>
                 <div class="container" id="hs12">
@@ -233,7 +236,7 @@
                         </tbody>
                     </table>
                     <div class="text-center p-2">
-                        <a href="#antwort2" style="cursor: pointer;" class="text-primary" onclick="antwort2()">Lösung</a>
+                        <a href="#antwort2" id="btn2" style="cursor: pointer;" class="text-primary" onclick="antwort2()">Lösung</a>
                     </div>
                     <div class="text-center p-2">
                         <div class="d-none" id="antwort2">
@@ -323,6 +326,9 @@
                                     das schnellste der drei Verfahren, weil gezielt an der richtgen Stelle gesucht wird.
                                 </p>
                             </div>
+                        <div class="text-center p-2">
+                            <a href="#hs12" id="hide2" style="cursor: pointer;" class="d-none" onclick="hide2()">Ausblenden</a>
+                        </div>
                         </div>
                     </div>
                 </div>

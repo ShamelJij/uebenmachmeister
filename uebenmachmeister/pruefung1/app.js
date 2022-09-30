@@ -22,7 +22,11 @@ function topFunction() {
 
 function antwort1() {
   var text1 = document.getElementById('antwort1').className;
+  var btn1 = document.getElementById('btn1').className;
+  var hide1 = document.getElementById('hide1').className;
   if (text1 == 'd-none') {
+    document.getElementById('btn1').className = 'd-none';
+    document.getElementById('hide1').className = 'text-primary';
     document.getElementById('antwort1').className = '';
     document.getElementById('antwort1').className += 'd-block';
   } else if (text1 == 'd-block') {
@@ -33,7 +37,11 @@ function antwort1() {
 
 function antwort2() {
   var text2 = document.getElementById('antwort2').className;
+  var btn2 = document.getElementById('btn2').className;
+  var hide2 = document.getElementById('hide2').className;
   if (text2 == 'd-none') {
+    document.getElementById('btn2').className = 'd-none';
+    document.getElementById('hide2').className = 'text-primary';
     document.getElementById('antwort2').className = '';
     document.getElementById('antwort2').className += 'd-block';
   } else if (text2 == 'd-block') {
@@ -78,4 +86,29 @@ function antwort5() {
     document.getElementById('antwort5').className = '';
     document.getElementById('antwort5').className += 'd-none';
   }
+}
+
+function hide1() {
+  document.getElementById('antwort1').className = '';
+  document.getElementById('antwort1').className += 'd-none';
+}
+
+function hide2() {
+  document.getElementById('antwort2').className = '';
+  document.getElementById('antwort2').className += 'd-none';
+}
+
+function hide3() {
+  document.getElementById('antwort3').className = '';
+  document.getElementById('antwort3').className += 'd-none';
+}
+
+function hide4() {
+  document.getElementById('antwort4').className = '';
+  document.getElementById('antwort4').className += 'd-none';
+}
+
+function hide5() {
+  document.getElementById('antwort5').className = '';
+  document.getElementById('antwort5').className += 'd-none';
 }
