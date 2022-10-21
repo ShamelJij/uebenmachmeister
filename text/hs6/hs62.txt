@@ -1,0 +1,20 @@
+
+Das folgende Klassendiagramm beschreibt einige der Klassen, die für die zu entwickelnde Bauverwartungssoftware geplant sind:
+
+a) Begründen Sie die Auswahl der jeweils verwendeten Zugriffsmodifizierer (+,#). b) Erläutern Sie den Unterschied zwischen den beiden hier verwendeten Relationstypen.
+
+c) Erläutern Sie, warum die Klasse Gebäude" über zwei Attribute verfügt, obwohl es sich um eine abstrakte Klasse handelt, von der keine Objekte instanziert werden können. d) Geben Sie an, welche Methoden in den grau markierten Feldern mindestens erforderlich sind
+
+
+
+e) Die Methode bauen" ruft zunächst die sog. Fabrikmethode (Factory method) planen" auf:
+
+public Gebaeude hauen (int anzahlEinheiten)
+
+Gebaeude neues Gebaeude-planen (anzahlEinheiten);
+
+    ea) Setzen Sie den Code dieser Methode fort durch einen Aufruf der Methoden fundamentBauen" und waendeBauen".
+
+    eb) Warum ist ein Aufruf von waendeBauen" überhaupt möglich, obwohl es sich um eine ab
+
+strakte Methode handelt?

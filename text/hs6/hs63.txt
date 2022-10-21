@@ -1,0 +1,13 @@
+Das Amt für Datenverarbeitung und Statistik soll die Ergebnisse der Bauvorprüfung statistisch analy sieren. Dazu werden zehn Analysekriterien (z. B. Vollständigkeit des Antrags, Übereinstimmung mit den Bebauungsplänen usw.) jeweils mit einer Punktzahl zwischen 1 und 5 bewertet. Ist ein Kriterium nicht anwendbar, erhält es die Punktzahl O Einmal pro Monat übermittelt das Bauamt dem Amt für Statistik eine csv-Datei, die für jeden Antrag
+
+einen Datensatz mit 10 durch Kommata getrennten Punktwerten enthält
+
+Beispiel:
+
+3,5,1,1,0,5,3,0,0,2
+
+Erstellen Sie ein Struktogramm für eine Funktion, die jeden Datensatz aus dieser Datei zunächst in ein Array überführt und dieses anschließend auswertet. Zurückgegeben werden soll ein eindimensionales Array mit der durchschnittlich erreichten Punktzahl pro Kriterium. Ist ein Kriterium nicht anwendbar, wird der betreffende Wert 0 nicht berücksichtigt.
+
+Verwenden Sie dabei die für Zeichenketten definierte Methode "Split('.')", die ein Array mit den je
+
+weiligen durch ein Komma abgegrenzten Teilzeichenketten liefert.

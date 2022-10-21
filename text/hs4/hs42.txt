@@ -1,0 +1,19 @@
+Die Stadtverwaltung entschiedet tatsächlich, dass die Kennzeichen beim Lösen eines Parkscheins über den Touchscreen des Parkscheinautomaten eingegeben werden sollen. Um Eingabefehler abzufangen, soll eine Plausibilitätsprüfung der Kennzeichenangeabe erfolgen.
+Geben Sie den Algorithmus für die Kennzeichenprüfung in Pseudocode an. Beachten Sie dabei Folgendes:
+- Alle Eingaben, die nicht den folgenden Regeln für deutsches Standardkennzeichen (ohne Behörden-, Ausfuhr- oder Kurzzeitkennzeichen usw.) entsprechen, führen zu einem negativen Prüfungsergebnis.
+- Die Eingabe muss mit einer Buchstabenkombination (Ortskennung) beginnen, unmittelbar gefolgt von einem Bindestrich.
+- Diese Ortskennung muss in einem Array namens (orte) der Länge (orte.Length) enthalten sein. (Hinweis: Es steht keine Methode (orte.Contains) o. ä. zur Verfügung!)
+- Nach dem Bindestrich folgt eine ein- bis zweistellige Buchstabenkombination, gefolgt von einem Leerzeichen.
+- Das Kennzeichen endet mit einer ein- bis vierstelligen Zahl.
+Die Eigabe besteht also aus einer fünf- bis elfstelligen Zeichenkette (z. B. "B-C 1" oder "LDK-WW 2345"). Der Algorithmus liefert einen booleschen Wert zurück (Prüfung erfolgreich ).
+Verwenden Sie bei Ihrer Lösung die folgenden Methoden für Zeichenketten:
+- length(): int                         | liefert die Länge einer Zeichenkette
+- substring(start, laenge): string      | liefert eine Teil-Zeichenkette
+                                          start = Startposition, beginnen mit 0
+                                          länge = Länge der Teil-Zeichenkette
+- substring (start): string             | liefert eine Teil-Zeichenkette ab einer Startposition bis zum Ende
+                                          start = Startposition, beginnend mit 0
+- pos (zeichen): int                    | Position des ersten Vorkommens eines Zeichens in einer Zeichenkette; liefert den Wert -1, falls das Zeichen nicht vorkommt
+- isChar(): bool                        | bestimmt, ob eine Zeichenkette nur aus Buchstaben besteht
+- isNum(): bool                         | bestimmt, ob eine Zeichenkette in eine Zahl konvertiert werden kan
+Beispiel: "Algorithmus" .substring(2,3) -> "gor"

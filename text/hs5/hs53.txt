@@ -1,0 +1,30 @@
+
+5. Prüfung - Der Autoverleih
+
+3. Handlungsschritt 
+
+Die Verwaltung der verschiedenen angebotenen Fahrzeugtypen soll über ein objektorientiertes Pro
+
+gramm erfolgen. Als Ausgangspunkt soll die folgende Klasse verwendet werden:
+
+<<interface>> IFahrzeug
+
+beschreibung (): string
+
+miete (abholung datetime, rueckgabe datetime); float
+
+a) Erläutern Sie, warum von einer Interface-Klasse noch keine Objekte instanziert werden können. (3 Punkte)
+
+b) Ergänzen Sie das angegebene Klassendiagramm um eine implementierende Klasse "Transporter", Zur Beschreibung eines Transporters sind Angaben über Länge, Breite und Höhe der Ladefläche sowie das maximale Gewicht der Zuladung erforderlich. (6 Punkte)
+
+c) Zeichnen Sie für die Methode "miete" eines Transporters ein Struktogramm, das die folgende Be rechnung beschreibt:
+
+Die 24 Stunden-Miete eines Transporters beträgt 120 €, an Sonntagen 90 € Sollte der Wa gen bereits binnen der ersten 24 Stunden zurückgegeben werden, gilt ein Kurzzeittarif von 80 € Bei Transportern, deren Ladefläche größer als 7 m² ist, erhöht sich der Preis um 10% Bei einer Ausleihe von mehr als 3 Tagen wird ein Rabatt von 20 % gewährt. Eine Ausleihe von mehr als 7 Tagen kostet einheitlich 80 € pro Tag (ohne weiteren Rabatt).
+
+Verwenden Sie dabei die folgenden Funktionen: dauer (datetime, datetime): int gibt die Differenz zwischen zwei Zeitangaben in auf
+
+gerundeten Tagen zurück
+
+Wochentag (datetime): string gibt den Wochentag zurück (z.B. "Samstag")
+
+

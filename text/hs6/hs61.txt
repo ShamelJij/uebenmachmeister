@@ -1,0 +1,8 @@
+
+1. Handlungsschritt
+
+Jeder von einem Antragsteller eingereichte Bauantrag wird zunächst vom Bauamt vorgeprüft. Im Erfolgsfall geht der Antrag an die zuständige Bezirksverwaltung. Parallel dazu wird bei Geschäftshau sern zusätzlich die IHK konsultiert, bei industriellen Produktionsstätten das Umweltamt. Die jeweiligen Beurteilungen gehen zurück an das Bauamt, das einen abschließenden Bescheid erstellt und an den Antragsteller zurücksendet.
+
+a) Zeichnen Sie hierzu ein Aktivitätsdiagramm.
+
+b) Erläutern Sie, wodurch sich ein Aktivitätsdiagramm von einem Anwendungsfalldiagramm und einem Sequenzdiagramm unterscheidet.

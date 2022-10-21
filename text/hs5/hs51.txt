@@ -1,0 +1,20 @@
+Bisherige Verleihvorgänge wurden in einer Tabelle folgender Form festgehalten:
+
+    Fahrzeug    Typ     FüK     Abholung        Rückgabe    Dauer   Preis   Kunde 
+    MEB-TT 10   A       B       31.7.,8:15      31.7,16:27  8:12    120     Herbert Schröder,
+                                                                            Neustadt,
+                                                                            0177/3456262
+    MEB-TT 11   A       B       31.7.,8:20      1.8.,12:00  27:40   170     Gisela Groß,
+                                                                            Altdorf,
+                                                                            0172/4343525
+    MEB-TT 10   A       B       1.8.,7:22       2.8.,7:18   23:56   120     Frank Klein,
+                                                                            Stadtneuburg,
+                                                                            0173/67854231
+    MEB-TT 12   B       C       2.8.,12:00      2.8.,15:35  3:35    50      Herbert Schröder,
+                                                                            Neustadt,
+                                                                            0177/3456262
+
+ "Typ" bezieht sich auf den jeweiligen Fahrzeugtyp (z.B. PKW, LKW), "FüK" gibt die für diesen Fahrzeugtyp benötigte Führerscheinklasse an.
+ a) Geben Sie ein Datenbankschema in der 3. Normalform an, das für die Aufnahme der angegebenen Daten geeignet ist.
+ b) Für die Preise gibt es ein festes Berechnungsschema aufzunehmen.
+ c) Warum existieren in den meisten Datenbanken keine eigenen Tabelle für Name oder Vorname?

@@ -1,0 +1,4 @@
+a) Sie leiten ein gemischtes Team aus Anwendungsentwicklern und Mechatronikern. Nennen Sie zwei mögliche Konfliktpunkte, die aus dieser Zusammensetzung entstehen können, sowie geeignete Gegenmaßnahmen.
+b) Sie möchten den geplanten Projektverlauf als Netzplan darstellen. Nennen Sie Ihrem Team drei Vorteile eines Netsplans.
+c) Ein Mechatroniker aus Ihrem Team schlägt vor, für den Münzprüfer ein preiswertes Modell zu verwenden, das nur Münzen zu 50 Cent, 1 und 2 Euro akzeptiert. Nennen Sie drei weitere Vorteile oder Nachteile aus ökonomischer oder technischer Sicht.
+d) Die Stadtverwaltung möchte verhindern, dass Parkkunden ihren noch nicht abgelaufenen Parkschein an andere Kunden weitergeben. Ein Teammitglied schlägt dazu vor, dass beim Kauf eines Parkscheins das Kfz-Kennzeichen angegeben werden muss, und fragt Sie ob dies datenschutzrechtlich bedenklich sei. Geben Sie eine begründete Antwort.

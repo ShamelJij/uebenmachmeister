@@ -1,0 +1,16 @@
+Eine Datenbank soll speichern, welcher Bauherr Gebäude auf welchen Grundstücken errichtet und welche Planungsbüros an diesem Bauvorhaben beteiligt sind. Dazu werden mindestens die folgenden
+
+Tabellen benötigt:
+
+- Stadtbezirk mit Namen und Verwaltungsadresse
+
+- Grundstück mit Größe und Adresse
+
+- Gebäudetyp (z.B. Wohnhaus, Geschäftshaus)
+
+- Gebäude
+
+- Bauherr mit Name und Geburtsdatum beteiligte Büros (Architekt, Statiker usw.) mit Name und Adresse
+
+Erstellen Sie hierzu die Tabellenstruktur einer Datenbank in der 3. Normalform. Kennzeichnen Sie
+Primärschlüssel-Attribute mit PK und Fremdschlüssel-Attribute mit FK.

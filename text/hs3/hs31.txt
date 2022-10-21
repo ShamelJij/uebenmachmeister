@@ -1,0 +1,5 @@
+Zunächst verschaffen Sie sich einen Überblick über die erforderlichen Schritte bei Bestellung einer Karte:
+- Sobald ein Käufer eine Karte bestellt, prüft die Agentur, ob die gewünschten Plätze verfügbar sind. Handelt es sich um einen VIP-Kunden, weist sie him spezielle Plätze zu.
+- Der Käufer bezahlt die von ihm bestellten Karten.
+-Die Agentur sendet ihm die bestellten Karten zu. Sofern es sich um eine Eillbestellung handelt, erfolgt die Zustellung per Kurier.
+Erstellen Sie hierzu ein Anwendungsfalldiagramm.

@@ -1,0 +1,21 @@
+Die endgültige Form der Tabelle "Wohnung" sowie die dazugehörige Tabelle "Ort" erhalten die folgende Gestalt
+
+    Wohnung             Ort
+    Wohnungsnr (PK)     ID (PK)
+    Preis               Name
+    AnzahiZimmer        Land
+    AnzahlBetten        Einwohnerzahl
+    Größe
+    Ort (FK) 
+
+a) Formulieren Sie eine SQL-Anweisung, die die Anzahl der Wohnungen pro Ort angibt. Ausgegeben werden sollen die Namen der Orte und die jeweilige Anzahl von Wohnungen. b) Formulieren Sie eine SQL-Anweisung, die den Ort mit der höchsten Einwohnerzahl ermittelt.
+
+Ausgegeben werden der Name des Ortes und dessen Einwohnerzahl.
+
+c) Formulieren Sie eine SQL-Anweisung, die die Gesamtzahl der im Ort Oberbergdorf verfügbaren
+
+Betten ermittelt.
+
+d) Formulieren Sie eine SQL-Anweisung, die für jedes Land die durchschnittliche Zimmergröße seiner Wohnungen ermittelt. Ausgegeben werden sollen die Namen der Länder und die jeweilige Zimmergröße. (Eine Dreizimmerwohnung mit 60 m² hätte also eine durchschnittliche Zimmergröße von 20 m²)
+
+e) Formulieren Sie eine SQL-Anweisung, die alle Orte löscht, zu denen keine Wohnung mehr regis triert ist.

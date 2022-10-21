@@ -1,0 +1,20 @@
+
+
+Die erstellten Programme sollen nunmehr auf ihre Qualität überprüft werden.
+
+a) Für einen Blackbox-Test sollen zukünftige Anwender als Testpersonen angeworben werden, Begründen Sie diese Maßnahme. 
+
+b) Nennen Sie zwei typische Arten von Testdaten. Im Rahmen eines Whiteboxtests soll u.a. die Pfadüberdeckung geprüft werden. Was versteht man
+unter den beiden Begriffen Whiteboxtest und Pfadüberdeckung? 
+
+d) vorgesehen sind ein Komponententest, ein Integrationstest und ein Systemtest. Grenzen Sie diese
+drei Begriffe voneinander ab. 
+
+e) Zur Ermittlung von Ersatzfahrzeugen im Falle einer Panne wird eine rekursive Methode verwendet.
+
+    ea) Was versteht man unter einer rekursiven Methode? 
+    eb) Worauf muss bei einem rekursiven Aufruf geachtet werden? 
+    ec) Welchen Vorteil hat die Verwendung von rekursiven Methoden?
+
+f) Nennen Sie drei nichtfunktionale Qualitätsanforderungen.
+

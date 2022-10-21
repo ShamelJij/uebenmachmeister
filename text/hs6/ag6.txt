@@ -1,0 +1,16 @@
+
+Ausgangssituation
+
+Sie sind Mitarbeiter/in der BVS Softwareentwicklungsgesellschaft. Ihre Firma hat von der Stadtver waltung Musterstadt den Auftrag erhalten, die Ablaufe bei der Bearbeitung von Bauanträgen zu| analysieren und teilweise zu automatisieren.
+
+Dazu sollen Sie
+
+1. ein Aktivitätsdiagramm erstellen
+
+2. ein Klassendiagramm analysieren
+
+3. ein Struktogramm sowie Pseudocode zur Dateiverarbeitung erstellen
+
+4. eine Datenbankstruktur zur Abspeicherung der Antragsdaten entwickeln 
+
+5. SQL-Abfragen zur Antragsverwaltung formulieren

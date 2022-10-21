@@ -1,0 +1,18 @@
+Die Datenbank, in der die Angebote und Buchungen gespeichert Anforderungen erfüllen:
+
+werden sollen, muss die folgenden
+
+Jede Wohnung wird nur von einem Anbieter bereitgestellt. Für eine Wohnung werden zu verschiedenen Buchungszeiten verschiedene Preise verlangt.
+
+Ein Kunde kann mehrere Wohnungen buchen,
+
+Zu jeder Buchung gehören Anreise- und Abreisedatum.
+
+PLZ und Ort der Kunden und Anbieter werden in einer gemeinsamen Tabelle abgelegt.
+
+a) Geben Sie ein Datenbankschema in der 3. Normalform an, das die genannten Anforderungen e füllt. Außer den angegebenen Attributen brauchen Sie nur die Schlüsselattribute sowie den Namen der Kunden und Anbieter anzugeben, Kennzeichnen Sie Primär- und Fremdschlüssel mit PK bzw. FK. 
+
+b) Begründen Sie, warum die Adresse des Kunden gemäß der 1. Normalform nicht nur als ein einziges Attribut dargestellt werden sollte.
+
+c) Erklären Sie, warum bei der Implementierung der Datenbank für die An- und Abreise der Datentyp
+"DATE" anstelle eines Zeichenkettentyps verwendet werden sollte.

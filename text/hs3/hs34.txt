@@ -1,0 +1,18 @@
+Während die Kenzertgäste über die HTML-Seite aus dem 2. Handlundgsschritt auf die Datenbank zugreifen, soll für die Administratoren vor Ort eine objektorientierte Software entwickelt werden, die mit denselben Daten arbeiten. Hierzu existiert folgendes Klassendiagramm, das nach dem Zustandsentwurfsmuster abbildet, ob ein Konzert bereits ausverkauft ist:
+a) Die Methode "getAusverkauft" ist folgendermaßen implementiert:
+  public static Ausverkauft getAusverkauft()
+  {
+    falls ausverkauft :  null 
+      ausverkauft = new Ausverkauft()
+    Ruechgabe ausverkauft
+  }
+  Erläutern Sie hiean die Besonderheiten der Singelton-Klasse "Ausverkauft".
+b) Implementieren Sie den Konstruktor der Klasse "Konzert", der u. a. die Zahl der verkauften Karten auf 0 und den Zustand auf "NichtAusverkauft" setzt.
+c) Implementieren Sie die Methode "auswertung" der Klasse "NichtAusverkauft". Diese prüft, ob für das betreffende Konzert mehr als 1000 Karten verkauft wurden. In diesem Fall setzt sie den Zustand des Konzerts auf "Ausverkauft".
+d) Implementieren Sie die Methode "Kartenverkauf", die die Zahl der verkauften Karten erhöht und anschließend eine Auswertung des Zustands auslöst.
+e) Implementieren Sie die folgende Funktion, die die Anzahl ausverkaufter Konzerte bestimmt:
+  public int anzahlAusverkaufterKonzerte (Konzert[] liste)
+  {
+  ...
+  }
+

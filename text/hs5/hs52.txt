@@ -1,0 +1,21 @@
+Für die Wartung des Fuhrparks existiert eine Datenbank, deren Einträge beispielsweise folgende Gestalt haben:
+
+                        Werkstatt
+    Fahrzeug    Werkstatt   Datum   Maßnahme
+    MEB-TT      1           20.11.  Ölwechsel
+    MEB-TT      2           20.11.  Reifenwechsel
+    MEB-TT      2           20.11.  Reifenwechsel
+
+                        Werkstatt
+    ID  Name                Straße          Ort         Telefonnummer
+    1   IhrSchmierDienst    Landstr. 13     Ölscheid    05678/65432
+    2   ReifenGut           Dorfstr. 24     Pneudorf    05679/23439
+    3   PannenWeg           Burgstr. 2      Fahrstadt   05680/32188
+
+Geben Sie jeweils eine SQL-Anweisung an, die Folgendes ermittelt:
+a) Wie viele Aufträge hat eine Werkstatt bisher maximal erhalten?
+b) Welche Werkstatt (Name, Ort) hat noch nie einen Auftrag für einen Ölwechsel erhalten?
+c) Wie oft haben die jeweiligen Fahrzeuge einen Ölwechsel bekommen?
+d) Welche Werkstätten (ID, Name, Ort) haben bisher weniger als 3 Aufträge erhalten?
+e) Welches Fahrzeug hatte am selben Tag einen Reifenwechsel wie das Fahrzeug MEB-TT 10?
+

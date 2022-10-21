@@ -1,0 +1,6 @@
+Ein erster Entwurf für ein HTML-Buchungsformular hat die folgende Gestalt:
+a) Nach dem Ausfüllen des Formulars aus dem zweiten Handlungsschritt wird ein Skript ausgeführt, das Folgendes umfasst:
+Sofern das Formular korrekt ausgefüllt wurde, erfolgt eine Verbindung mit der Datenbank. Zunächst wird ermittlet, zu welchem Datum der gewünschte Künstler bzw. die Künstlergruppe ein Konzert gibt. Für alle Konzerte aus dieser liste wird geprüft, ob die gewünschte Anzahl von Karten in der ausgewählten Preiskategorie vorhanden ist. Wenn ja, wird das Datum der Ergebnisliste hinzugefügt, die zum Schluss ausgegeben wird. Bleibt die Ergebnisliste leer, erfolgt eine entsprechende Fehlermeldung.
+Erstellen Sie ein Struktogramm, das den Ablauf dieses Skript beschreibt. Geben Sie dabei die möglichen Eingabefehler des Benutzers explizit an.
+b) Formatfehler be der Eingabe (z. B. Angabe der gewünschten Kartenzahl als Wort, nicht als Zahl) können durch Exceptions abgefangen werden.
+Erläutern Sie den Begreff "Exception".

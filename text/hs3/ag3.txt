@@ -1,0 +1,7 @@
+Als Mitarbeiter der Web4u GmbH sollen Sie für die Konsertagentur München (KAM) einen Webauftritt entwicheln, mit dem sich Konertkarten online buchen lassen. Die Erstellung der dazu gehörigen Datenbank gehört ebenfalls zu Ihrem Auftrag.
+Im Einzelnen sollen Sie:
+1. ein Anwendungsfalldiagramm erstellen
+2. ein Struktogramm erstellen
+3. Schlüsselattribute festlegen und SQL-Anweisungen schrieben
+4. ein Klassendiagramm analysieren und implementieren
+5. verschiedene Vorgaben für eine solche Seite reflektieren

@@ -1,0 +1,28 @@
+Das Neustädter Fremdenverkehrsamt möchte, dass zumindest die Ortsangaben der beim Parkscheindruck angegebenen Kennzeichen gespeichert werden, zusammen mit Datum, Uhrzeit des Parkscheindrucks, Ablauf des Parkscheins und Standort des Automaten. Die entsprechende Tabelle einer SQL-Datenbank wird folgendermaßen erstellt:
+
+    CREATE TABLE parken 
+    (ortskennzeichen varchar(3),
+    standort int,
+    datum date,
+    von time,
+    bis time);
+
+Als Standort des Parkscheinautomaten wird also lediglich ein Fremdschlüssel angegebenen. Die Zeitangaben erfolgen sekundengenau.
+    a) Legen Sie den vorhandenen Attributen der Tabelle einen Primärschlüssel als Kombinationsschlüssel fest und geben Sie den SQL-Befehl an, mit dem dieser Primärschlüssel für die durch den oben stehenden CREATE-Befehl angelegte Tabelle nachträglich festgelegt werden kann.
+    b) Geben Sie eine SQL-Anweisung an, mit der sich die Anzahl der vorhandenen Datensätze pro Ortskennzeichen ermitteln lässt.
+
+    Beispielausgabe:
+
+        Ortskennzeichen     Anzahl
+        LDK                 12
+        KO                  71
+
+    c) Geben Sie eine SQL-Anweisung an, die die maximale Anzahl der am selben Tag verkauften Parkscheine ermittelt.
+    d) Die Höchstparkdauer sollte nicht dadurch umgangen werden, dass man nach Ablauf des ersten einen neuen Parkschein kauft.
+    Geben Sie eine SQL-Anweisung an, die alle Datensätze desselben Standorts mit demselben Ortskennzeichen ermittelt, die zeitlich genau aneinander anschließen.
+
+    Beispielausgabe:
+
+    Datem   Ortskennzeichen     Parken 1 von    Parken 1 bis    Parken 2 von    Parken 2 bis
+    1.1.    LDK                 14:00:00        15:00:00        15:00:00        16:00:00
+    1.1.    KO                  14:12:00        15:12:00        15:12:00        16:12:00 

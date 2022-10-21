@@ -1,0 +1,6 @@
+Die zugrund liegende Datenbank hat die folgende Gestalt:
+a) Kennzeichnen Sie in jeder Tabelle den Primärschlüssel mit "PK" und verbinden Sie ihn durch eine Linie mit dem dazugehören Fremdschlüssel, gekennzeichnet durch "FK". Ergänzen Sie dazu die Tabelle (nur bei Bedarf) durch ein künstlich erzeugtes Primärschlüsselattribut. Vorrangig sollen bereits vorhandene geeignete Attribute als Primärschlüssel verwendet werden, ggf. in Kombination.
+b) Nennen Sie jeweils einen Vorteil und einen Nachteil der Methode, keine künstlich erzeugten Primärschlüssel zu verwenden, sondern ohnehin existierende Attribute (soweit möglich).
+c) Formulieren Sie zu dieser Datenbankstruktur eine SQL-Anweisung, die den Preis einer Karte in Kategorie A auf 37 Euro erhöht.
+d) Formulieren Sie zu dieser Datenbankstruktur eine SQL-Anweisung, die alle Konzerte löscht, die in der Vergangenheit stattgefunden haben. Hinweis: Verwenden Sie dazu den wert SYSDATE.
+e) Formulieren Sie zu dieser Datenbankstruktur ein SQL-Anweisung, die ermittelt, welcher Künslter als nächstes ein Konzert gibt. (Sie können davon ausgehen, dass vergangene Konzerte aus der Datenbank gelöscht wurden.)

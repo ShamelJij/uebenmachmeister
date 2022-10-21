@@ -1,0 +1,29 @@
+Aufgrund einer Kooperation mit anderen Autoverleihagenturen bietet die TranspoTeam ihren Kunden an das gesehene Auto in den Nachbarstädten von Meckertsach zurückzugeben. Für die Entfernungsermittlung existiert ein objektorientiertes Programm, das mit den beiden folgenden
+Klassen arbeitet:
+
+    Nachbarort      Auswahl
+    +ort string     +start: string
+    +ort2 string    +ziele Nachbarort[]    
+    +entfernung int +nachbar: Nachbarort[]
+                    +zieleberechnen
+
+Die Klasse Auswahl enthält ein statisches Array "nachbar", das jeweils Angaben über unmittelbar benachbarte Orte in Form einer Nachbarort-instanz enthält. Als Tabelle dargestellt haben diese Daten beispielsweise die folgende Gestalt
+
+    i nachbart[i].ort1  nachbar[i].ort2     nachbar[i].entfernung
+    0 Meckerbach        Schraya             18
+    1 Schraya           Krayschau           14 
+    2 Weinburg          Meckerbach          17
+    3 Krayschau         Heuldorf            22
+    4 Weinburg          Jammertal           11
+
+Jede Verbindung kommt nur einmal vor, sodass ein gesuchter Ort entweder als "ort1" oder "ort2" aufgeführt sein kann.
+
+Geben Sie für die Methode "zieleBerechnen()" einen Algorithmus in Pseudocode an, der für einen ge gebenen Startort das Array ziele mit allen Verbindungen füllt, die entweder direkt im Array "nachbar" gegeben sind oder von einem der dort angegebenen Nachbarorte aus erreichbar sind. Maximal sollen 10 Ziele abzuspeichern sein. Für den Startort "Meckerbach" würde die oben angegebene Tabelle also zu folgenden Verbindungen führen:
+
+    i zielel[i].ort1        ziele[i].ort2   ziele[i].entfernung
+    0 Meckerbach            Schraya         18
+    1 Meckerbach            Krayschau       32           
+    2 Weinburg              Meckerbach      17
+    3 Meckerbach            Jammertal       28
+
+Die Verbindungen 0 und 2 werden also direkt aus "nachbar" übernommen, die beiden anderen neu generiert (ziele[1] aus nachbar [0] und nachbar[1], ziele [3] aus nachbar [2] und nachbar[4]).

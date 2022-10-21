@@ -1,0 +1,2 @@
+Zu Beginn des Projekts legt die Stadtverwaltung die Parkgebühr auf einen festen Betrag von 1,50 € fest. Dieser Betrag kann in Münzen zu 50 Cent, 1 oder 2 Euro bezahlt werden. Sobald genügend Münzen eingeworfen wurden, wird automatisch der Parkschein gedruckt. Werden Münzen im Wert von zwei Euro eingeworfen, erfolgt die Rückgabe eines 50-Cent-Stücks. Sollten keine 50-Cent-Stüche mehr vorhanen sein, werden alle eingeworfenen Münzen zurückgegeben.
+Zeichnen Sie ein UML-Zustandsdiagramm, das die verschiedenen Zustände des Automaten nach Einwurf der jeweiligen Münzen beschreibt.

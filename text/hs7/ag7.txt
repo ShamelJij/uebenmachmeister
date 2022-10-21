@@ -1,0 +1,12 @@
+
+Als Mitarbeiter/-in der SoftToGo GmbH erhalten Sie den Auftrag, für die SeaLoft, einen internet Vermittler von Ferienwohnungen am Meer, die benötigten Datenbankfunktionalitäten zu entwi ckeln.
+
+Im Einzelnen sollen Sie
+
+1. ein Sequenzdiagramm erstellen
+
+2. eine Datenbankstruktur entwerfen 3. SQL-Befehle festlegen
+
+4. ein Struktogramm erstellen
+
+5. die getroffenen Sicherheitsvorkehrungen erläutern

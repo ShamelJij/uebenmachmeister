@@ -1,0 +1,20 @@
+Im weiteren Projektverlauf entschließt sich die Stadtverwaltung jedoch, eine Höchstparkdauer von zweieinhalb Stunden sowie eine Parkgebühr von 0,50 € je angefangene 30 Minuten festzusetzen.
+Dazu soll der Parkschein nicht mehr automatisch nach dem Einwurf einer passenden Anzahl Münzen ausgedruckt werden, sondern der Parkscheindruck soll durch das Betätigen eines Bestätigungsknopfs ausgelöst werden. Bei Bedarf wird Wechselgeld zurückgegeben, sofern vorhanden (ansonsten wird der eingeworfene Betrag zurückgezahlt).
+Beispiel für die Wirkung des Bestätigungsknopfs:
+
+    Gezahlter Betrag    Parkdauer   Rückgabebetrag
+    0,10 €              0 Min.      0,10 €
+    0,60 €              30 Min.     0,10 €
+    1,00 €              60 Min.     0,00 €
+    4,00 €              150 Min.    1,50 €
+
+Zeichnen Sie ein Struktogramm, das die Aktionen beim Bestätigen des Knopfs wiedergibt. Dazu stehen Ihnen die folgenden Funktionen zur Verfügung:
+
+    gezahlterBetrag(): float            liefert den Gesamtwert der Münzen in Euro, die beim Bestätigen des Buttons eingeworfen wurden 
+    abrunden (float wert): int          rundet einen Wert ab 
+    rueckzahlbar (float betrag): bool   gibt an, ob der Wechselgeldbestand ausreicht, um einen bestimmten Betrag zurückgezahlen
+    geldrueckgabe (float betrag): void  zahlt den angegebenen Betrag zurück
+    jetzt(): int                        liefert den aktuellen Datum/Uhrzeit-Wert zurück (in Minuten seit dem letzten Systemstart)
+    ticketdruck (int minuten): void     druckt einen Parkschein aus, der bis zu der als Parameter übergebenen Zeit gillt (Zeitangaben in Minuten seit dem 
+                                        letzten Systemstart)
+

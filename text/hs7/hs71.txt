@@ -1,0 +1,23 @@
+
+Im Gespräch mit dem Auftraggeber legen Sie den zeitlichen Ablauf der wesentlichen Prozesse fest
+
+Zunächst erfragt der Vermittler bei einem Anbieter von Ferienwohnungen die Details der verfüg baren Wohnungen 
+
+Aufgrund der erhaltenen Informationen erzeugt der Vermittler ein neues, im Internet veröffentlichtes Angebot.
+
+Inzwischen plant der Kunde seinen Wunschurlaub (hierzu verfügt die Klasse "Kunde" über eine
+Methode "planen()"). 
+
+Der Kunde betrachtet ein Angebot im Internet.
+
+Aufgrund der erhaltenen Informationen übermittelt er dem Vermittler einen Buchungswunsch. 
+
+Der Vermittler leitet den Buchungswunsch an den Anbieter weiter und teilt dem Kunden die erhal tene Zu- oder Absage mit.
+
+Abschließend wird das Angebot vom Vermittler gelöscht.
+
+a) Zeichnen Sie hierzu ein vereinfachtes Sequenzdiagramm, bei dem auf Entscheidungs- und Wieder holungsstrukturen verzichtet wird.
+
+b) Beschreiben Sie stichwortartig die Entscheidungs- und Wiederholungsstrukturen, um die man das
+
+Diagramm erweitern müsste.

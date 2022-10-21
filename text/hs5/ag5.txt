@@ -1,0 +1,7 @@
+Die TransportTeam GmbH aus Meckerbach, ein Autoverleih mit einem umfangreichen Angebot an Transportern verschiedenster Größen, beauftragt Sie mit der Erstellung verschiedener Dispositionsprogramme.
+Im Einzelnen sollen Sie
+1. einen Datenbankenentwurf erstellen
+2. SQL-Abfragen formulieren
+3. ein Struktogramm entwerfen sowie ein Klassendiagramm ergänzen
+4. einen Algorithmus in Pseudocode angeben
+5. verschiedene Testverfahren beschreiben

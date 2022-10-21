@@ -1,0 +1,7 @@
+Als Projektleiter der TrafficSoft GmbH erhalten Sie von der Stadtverwaltung Neustadt den Auftrag, einen neuen Parkscheinautomaten zu entwickeln.
+Dazu sollen Sie
+1. Projetplanungsschritte durchführen
+2. einen Algorithmus zur Kennzeichenprüfung entwerfen
+3. ein UML-Zustandsdiagramm erstellen
+4. Funktionsaufrufe im Struktogramm darstellen
+5. SQL-Anweisungen festlegen

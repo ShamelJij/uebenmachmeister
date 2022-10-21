@@ -1,0 +1,25 @@
+Der Bearbeitungsstatus der Bauanträge wird vom Bauamt in den beiden folgenden Tabellen
+
+    Antrag              Sachbearbeiter
+    Antragsnr           Sachbearbeiternr
+    Sachbearbeitern     Name
+    Antragsdatum        Vorname
+    Genehmigungsdatum   Telefon
+
+Bei der Anlage eines neuen Antrags werden zunächst die Antragsnummer sowie Sachbearbeiter und Datum der Antragstellung gespeichert. Das Genehmigungsdatum wird nachträglich ergänzt.
+
+a) Erstellen Sie eine SQL-Anweisung, die alle Antragsnummern mit Namen und Telefon des Sachbear beiters sortiert nach Antragsdatum zurückgibt.
+
+b) Erstellen Sie eine SQL-Anweisung, die für alle genehmigten Anträge die durchschnittliche Bear
+
+beitungszeit eines Antrags bei den jeweiligen Sachbearbeitern zusammen mit deren Namen und
+
+Vornamen zurückgibt.
+
+c) Erstellen Sie eine SQL-Anweisung, die alle Sachbearbeiter mit Namen und Vornamen zurückgibt, die derzeit keine Anträge bearbeiten (d.h. bei allen von diesem Sachbearbeiter bearbeiteten Antra gen liegt ein Genehmigungsdatum vor).
+
+d) Erstellen Sie eine SQL-Anweisung, die die Nummer des zuletzt gestellten Antrags zurückgibt. 
+
+e) Die Telefonnummer der Sachbearbeiterin Anna Baumeister ändert sich in 2468. Erstellen Sie eine
+
+entsprechende SQL-Anweisung.

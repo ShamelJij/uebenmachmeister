@@ -1,0 +1,9 @@
+a) Die Konzertagentur München erwartet eine einheitliche Gestaltung ihrer Webseiten gemäß ihrer Corporate Design-Richtlinien. Nennen Sie drei typische Elemente solcher Richtlinien.
+b) Zu den in der Bildschirmarbeitsverordnung bzw. in DIN-EN ISO 9241 gennanten Ergonomiekriterien gehören die Fehlertoleranz und die Selbsterklärungsfähigkeit, Nennen Sie je zwei Gestaltungsmittel für grafische Benutzeroverflächen, die zur Umsetzung dieser beiden Kriterien beitragen.
+c) Nennen Sie zwei Elemente einer barrierefrei gestalteten Benutzeroverfläche.
+d) Auf vielen Webseiten tragen Bilder zu einer ansprechenden Gestaltung bei.
+    da) Nennen Sie zwei gängige Bilddateiformate.
+    db) Inwiefern spielt der Persönlichkeitsschutz bei der Veröffentlichung von Fotos eine Rolle?
+e) Welche Informationen muss das Impressum einer Website in jedem Fall enthalten?
+f) Datenbankzugriffe über HTML-Seiten können durch sog. SQL-Injections ausgenutzt werden. Erläutern Sie diesen Begriff.
+
